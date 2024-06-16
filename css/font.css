@@ -1,0 +1,63 @@
+/* ______________FONT CDN */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Noto Sans", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/* font-family: "Noto Sans KR", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+/* font-family: "Do Hyeon", sans-serif; */
+
+
+/* _____________ICON CDN */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+@import url('//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+
+/* <나눔스퀘어> 
+font-family: Nanum Square EB, sans-serif;
+font-family: Nanum Square B, sans-serif;
+font-family: Nanum Square M, sans-serif;
+font-family: Nanum Square L, sans-serif;
+*/
+@font-face{
+  font-family: Nanum Square EB;
+  src:url('../font/NanumSquareEB.woff') format('woff');
+}
+@font-face{
+  font-family: Nanum Square B;
+  src:url('../font/NanumSquareB.woff') format('woff');
+}
+@font-face{
+  font-family: Nanum Square M;
+  src:url('../font/NanumSquareR.woff') format('woff');
+}
+@font-face{
+  font-family: Nanum Square L;
+  src:url('../font/NanumSquareL.woff') format('woff');
+}
+
+/* <Gmarket산스> 
+font-family: GmarketSansBold, sans-serif
+font-family: GmarketSansMedium, sans-serif
+font-family: GmarketSansLight, sans-serif
+*/
+@font-face{
+  font-family: Gms_B;
+  src:url('../font/GmarketSansBold.woff') format('woff');
+}
+@font-face{
+  font-family: Gms_M;
+  src:url('../font/GmarketSansMedium.woff') format('woff');
+}
+@font-face{
+  font-family: Gms_L;
+  src:url('../font/GmarketSansLight.woff') format('woff');
+}
+
+
+
