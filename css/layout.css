@@ -3,8 +3,9 @@ header{
   width: 100%;
   height: 60px;
   background-color: #153f91;
-  position:fixed;
-	z-index:100;  
+  position: fixed;
+  top: 0;
+	z-index: 100;  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +14,7 @@ header{
 .nav_top{display:flex;justify-content: space-between;}
 .top_right span{
   color:#fff;
-  font-size: 2.4rem;
+  font-size: 3rem;
   padding:15px;
   cursor: pointer;
 }
@@ -91,11 +92,9 @@ header{
 .mright>ul>li>a{
 	color:#333;
 	font-weight:400;
-	font-size:18px;
-	font-size:1.125rem;
+	font-size:1.6rem;
 }
-.mright>ul>li>a:hover{color:#121179;}
-.mright>li>a:hover{color:#121179;}
+.mright .main>a:hover{color:#2523bb;}
 .gnb>.main>a:after {  /* 처음에 보이는 화살표(아래방향) */
   content: "\f107";
   font-family: fontawesome;
@@ -108,21 +107,24 @@ header{
 }
 .sub{display: none;}
 .sub>li{
-	height:30px;
+	height:3rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* background-color: #717171; */
+  line-height: 1rem;
 }
 .sub>li:last-child {border-bottom: none;}
 .sub>li>a{  
 	display:block;
 	color:#999;
 	padding: 10px;
+  font-size: 1.4rem;
 }
 
 
 /* ______section시작 */
 section{margin-bottom:50px;}
 /* section1________ */
-#main_visual{border: 1px solid #ccc;}
+/* #main_visual{border: 1px solid transparent;} */
 .slide{
   margin-top: 50px;
   position: relative;
@@ -145,7 +147,7 @@ section{margin-bottom:50px;}
 /* pre next btn */
 .slide-side a{
   font-size: 3rem;
-  color: #636363;
+  color: #8b8b8b;
 }
 .slide-side .prev,
 .slide-side .next{
@@ -192,7 +194,7 @@ section{margin-bottom:50px;}
 .book_list li:nth-child(3):hover{background: #54A1D9;color:#fff;}
 
 #search{
-  border: 2px solid #000;
+  border: 2px solid #222;
   border-radius: 10px;
   width: 32rem;
   height: 80px;
@@ -207,6 +209,8 @@ section{margin-bottom:50px;}
 }
 .search h3{
   padding-bottom: 10px;
+  font-size: 1.4rem;
+  color: #3f3f3f;
 }
 .search input{
   border: none;
@@ -241,6 +245,7 @@ input::placeholder{font-size: 1rem;}
   text-align: center;
   font-weight: 600;
   font-size: 1.4rem;
+  color: #3f3f3f;
 }
 #news .btn li:first-child,#news .btn li:nth-child(2){border-right: 2px solid #717171;}
 #news .btn li:last-child{
@@ -254,7 +259,7 @@ input::placeholder{font-size: 1rem;}
 }
 .tabMenu li:hover{color:rgb(48, 85, 196);}
 .tabContents{
-  border: 1px solid #000;
+  border: 1px solid #222;
   background-color: #fff;
   box-sizing: border-box;
   padding: 1.3rem;
@@ -280,6 +285,13 @@ input::placeholder{font-size: 1rem;}
 #health>div{
   text-align: center;
   padding-bottom:0.8rem;
+}
+#health>div h2{
+  font-size: 1.8rem;
+  color: #3f3f3f;
+}
+#health>div p{
+  font-size: 1.2rem;
 }
 
 /* section4 swiper_______________ */
