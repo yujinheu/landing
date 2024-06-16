@@ -257,7 +257,7 @@ input::placeholder{font-size: 1rem;}
   top:0.8rem;
   right:0;
 }
-.tabMenu li:hover{color:rgb(48, 85, 196);}
+#news .tabMenu li:hover{color:rgb(48, 85, 196);}
 .tabContents{
   border: 1px solid #222;
   background-color: #fff;
@@ -315,6 +315,30 @@ input::placeholder{font-size: 1rem;}
   height: 100%;
   object-fit: cover;
 }
+#contain{
+  position:relative;
+}
+.quick{
+  position:absolute;
+  bottom: 0;
+  left: 1rem;
+}
+.quick-menu li{
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.6rem;
+  background-color: #3d5cbb;
+  border-radius: 1.4rem;
+  text-align: center;
+  padding:2px;
+  margin-bottom:6px;
+  color: #f4f2f1;
+}
+.quick-menu li:hover{
+  background-color: #3f3f3f;
+  color:#fff;
+}
+
 
 /* footer_______________- */
 footer{
