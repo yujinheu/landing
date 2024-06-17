@@ -86,6 +86,7 @@
       </div>
   </header>
 
+  <div id="contain">
     <section id="main_visual">
       <div class="slide">
         <ul class="slide-items">
@@ -94,17 +95,12 @@
           <li class="slide-item"><img src="image/main-3.jpg" alt=""></li>
         </ul>
         <div class="slide-side"> 
-          <a class="prev" href="#none">
-            <i class="fa-solid fa-chevron-left"></i>
-          </a>
-          <a class="next" href="#none">
-            <i class="fa-solid fa-chevron-right"></i>
-          </a>
+          <a class="prev" href="#none"><i class="fa-solid fa-chevron-left"></i></a>
+          <a class="next" href="#none"><i class="fa-solid fa-chevron-right"></i></a>
         </div>
       </div>
     </section>
-
-  <div id="contain">
+  
     <section id="book">
       <div class="book_list">
         <ul>
@@ -113,94 +109,95 @@
           <li>예약확인</li>
         </ul>
       </div>
-      <div class="quick">
-        <ul class="quick-menu">
-          <li><a href="#none"><i class="fa-solid fa-comments"></i></a></li>
-          <li><a href="#none"><i class="fa-solid fa-phone"></i></a></li>
-          <li class="topmove"><a href="#"><i class="fa-solid fa-arrow-up-from-bracket topmove"></i></a></li>
-        </ul>
+    </section>
+  
+    <section id="search">
+      <div class="search">
+        <label for="doctor-search"><h3>의료진찾기</h3></label>
+        <input type="search" id="doctor-search" name="s" placeholder="의사명,질병명,진료과명을 입력해주세요" onfocus="this.placeholder=''" onblur="this.placeholder='의사명,질병명,진료과명을 입력해주세요'"/>
+        <span class="material-symbols-outlined icon3">search</span>
       </div>
     </section>
-  </div>
-
-  <section id="search">
-    <div class="search">
-      <label for="doctor-search"><h3>의료진찾기</h3></label>
-      <input type="search" id="doctor-search" name="s" placeholder="의사명,질병명,진료과명을 입력해주세요" onfocus="this.placeholder=''" onblur="this.placeholder='의사명,질병명,진료과명을 입력해주세요'"/>
-      <span class="material-symbols-outlined icon3">search</span>
-    </div>
-  </section>
-
-  <section id="news">
-    <div class="tabMenu">
-      <ul class="btn">
-        <li data-alt="tab1" class="active">병원소식</li>
-        <li data-alt="tab2">채용</li>
-        <li data-alt="tab3">강좌</li>
-        <li><a href="#none">+더보기</a></li>
-      </ul>
-    </div>
-    <div class="tabContents">
-      <div id="tab1" class="active">
-        <ul class=txt>
-          <li>2024년 5월 20일부터 신분증 꼭 챙기세요</li>
-          <li>2024-05-03</li>
-          <li>서울대병원 김진태 교수, 과학기술정보통신부장관...</li>
-          <li>2024-06-03</li>
-          <li>2024 SNUH Rare Disease Workshop...</li>
-          <li>2024-06-07</li>
-          <li>서울대병원, 환자·보호자와 함께하는...</li>
-          <li>2024-06-10</li>
-          <li>서울대학교병원은 부정청탁금지법을...</li>
-          <li>2024-06-10</li>
+  
+    <section id="news">
+      <div class="tabMenu">
+        <ul class="btn">
+          <li data-alt="tab1" class="active">병원소식</li>
+          <li data-alt="tab2">채용</li>
+          <li data-alt="tab3">강좌</li>
+          <li><a href="#none">+더보기</a></li>
         </ul>
       </div>
-      <div id="tab2">
-        <ul class="txt">
-          <li>연구교수 공개채용</li>
-          <li>2024-06-12</li>
-          <li>2024년도 6월 대체근로자 채용 서류전형 합격자 발표 및 면접전형 일정공고</li>
-          <li>2024-06-12</li>
-          <li>진료교수요원 공개채용</li>
-          <li>2024-06-07</li>
-          <li>2024년도 임상강사(Fellow) 4차 선발 공고</li>
-          <li>2024-06-07</li>
-          <li>임상교수요원 공개채용</li>
-          <li>2024-06-05</li>
-        </ul>
-      </div>
-      <div id="tab3">
-        <ul class="txt">
-          <li>2024년 7월 암정보교육센터 교육 프로그램 안내</li>
-          <li>2024-06-15</li>
-          <li>2024년 6월 암정보교육센터 교육 프로그램 안내</li>
-          <li>2024-05-15</li>
-          <li>2024년 5월 암정보교육센터 교육 프로그램 안내</li>
-          <li>2024-04-15</li>
-          <li>2024년 4월 암정보교육센터 교육 프로그램 안내</li>
-          <li>2024-03-15</li>
-          <li>2024년 3월 암정보교육센터 교육 프로그램 안내</li>
-          <li>2024-02-15</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="health">
-      <div>
-        <h2>건강정보</h2>
-        <p>질병, 영양, 운동, 생활 속 관리 등 건강에 대한 모든 것</p>
-      </div>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="image/h1.png" alt=""></div>
-          <div class="swiper-slide"><img src="image/h2.png" alt=""></div>
-          <div class="swiper-slide"><img src="image/h3.png" alt=""></div>
-          <div class="swiper-slide"><img src="image/h4.png" alt=""></div>
+      <div class="tabContents">
+        <div id="tab1" class="active">
+          <ul class=txt>
+            <li>2024년 5월 20일부터 신분증 꼭 챙기세요</li>
+            <li>2024-05-03</li>
+            <li>서울대병원 김진태 교수, 과학기술정보통신부장관 표창</li>
+            <li>2024-06-03</li>
+            <li>2024 SNUH Rare Disease Workshop "희귀질환 다학제 진료 101"</li>
+            <li>2024-06-07</li>
+            <li>서울대병원, 환자·보호자와 함께하는 온드림 희귀질환 공동 심포지엄 개최</li>
+            <li>2024-06-10</li>
+            <li>서울대학교병원은 부정청탁금지법을 적용받는 공공기관입니다.</li>
+            <li>2024-06-10</li>
+          </ul>
         </div>
-        <!-- <div class="swiper-pagination"></div> -->
+        <div id="tab2">
+          <ul class="txt">
+            <li>연구교수 공개채용</li>
+            <li>2024-06-12</li>
+            <li>2024년도 6월 대체근로자 채용 서류전형 합격자 발표 및 면접전형 일정공고</li>
+            <li>2024-06-12</li>
+            <li>진료교수요원 공개채용</li>
+            <li>2024-06-07</li>
+            <li>2024년도 임상강사(Fellow) 4차 선발 공고</li>
+            <li>2024-06-07</li>
+            <li>임상교수요원 공개채용</li>
+            <li>2024-06-05</li>
+          </ul>
+        </div>
+        <div id="tab3">
+          <ul class="txt">
+            <li>2024년 7월 암정보교육센터 교육 프로그램 안내</li>
+            <li>2024-06-15</li>
+            <li>2024년 6월 암정보교육센터 교육 프로그램 안내</li>
+            <li>2024-05-15</li>
+            <li>2024년 5월 암정보교육센터 교육 프로그램 안내</li>
+            <li>2024-04-15</li>
+            <li>2024년 4월 암정보교육센터 교육 프로그램 안내</li>
+            <li>2024-03-15</li>
+            <li>2024년 3월 암정보교육센터 교육 프로그램 안내</li>
+            <li>2024-02-15</li>
+          </ul>
+        </div>
       </div>
-  </section>
+    </section>
+  
+    <section id="health">
+        <div>
+          <h2>건강정보</h2>
+          <p>질병, 영양, 운동, 생활 속 관리 등 건강에 대한 모든 것</p>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="image/h1.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/h2.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/h3.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/h4.png" alt=""></div>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        <button class="lead-more">더 보러 가기</button>
+        <div class="quick">
+          <ul class="quick-menu">
+            <li><a href="#none"><i class="fa-solid fa-comments"></i></a></li>
+            <li><a href="#none"><i class="fa-solid fa-phone"></i></a></li>
+            <li class="topmove"><a href="#"><i class="fa-solid fa-arrow-up-from-bracket topmove"></i></a></li>
+          </ul>
+        </div>
+    </section>
+  </div>
 
   <footer>
     <div class="footer">
