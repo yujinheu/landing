@@ -1,4 +1,4 @@
-
+body{background-color: #fff;}
 header{
   width: 100%;
   height: 60px;
@@ -28,7 +28,7 @@ header{
   z-index: 200;
 	width:100%;  
 	height:100vh;
-	background-color:#fff; 
+	background-color:#fff;
   display: flex;
   overflow:auto;
 }
@@ -66,6 +66,8 @@ header{
 
 /* 메뉴오른쪽영역 */
 .mright{
+  height:100vh;
+  background-color: #fff;
   flex:7;
   padding: 30px;
 }
